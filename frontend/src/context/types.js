@@ -1,0 +1,16 @@
+export const LOGOUT = "LOGOUT";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const SET_CURRENT = "SET_CURRENT";
+export const ADD_CONTACT = "ADD_CONTACT";
+export const USER_LOADED = "USER_LOADED";
+export const GET_CONTACTS = "GET_CONTACTS";
+export const LOGIN_FAILED = "LOGIN_FAILED";
+export const CLEAR_FILTER = "CLEAR_FILTER";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const CLEAR_CURRENT = "CLEAR_CURRENT";
+export const CLEAR_CONTACTS = "CLEAR_CONTACTS";
+export const UPDATE_CONTACT = "UPDATE_CONTACT";
+export const DELETE_CONTACT = "DELETE_CONTACT";
+export const REGISTER_FAILED = "REGISTER_FAILED";
+export const FILTER_CONTACTS = "FILTER_CONTACTS";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";

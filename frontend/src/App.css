@@ -1,0 +1,95 @@
+:root {
+    /* --parimary: #8E44AD; */
+    --parimary: #FD560E;
+}
+
+.success {
+    background-color: var(--parimary);
+}
+
+.type-badge {
+    font-size: 0.6em !important;
+    border-radius: 0px !important;
+    float: right;
+}
+
+.btn-primary {
+    background-color: var(--parimary) !important;
+    border: var(--parimary) !important;
+}
+
+.btn-outline-primary {
+    background-color: #F8F9F9 !important;
+    border: 0.5px solid var(--parimary) !important;
+    color: var(--parimary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--parimary) !important;
+    border: 0.5px solid var(--parimary) !important;
+    color: #ffffff;
+}
+
+.text-primary {
+    color: var(--parimary) !important;
+}
+
+.card {
+    padding: 10px 15px;
+    border-radius: 0px !important;
+    border: 0px;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.bg-lighten {
+    border: 0px;
+    background-color: #F8F9F9;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.login-form {
+    width: 40vw;
+}
+
+
+@media screen and (max-width: 640px) {
+    .login-form {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .login-form {
+        width: 75vw;
+    }
+}
+
+
+/* Animations */
+.contact-enter {
+    opacity: 0;
+}
+
+.contact-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.contact-exit {
+    opacity: 1;
+}
+
+.contact-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms ease-out;
+}
+
+/* Animations */
